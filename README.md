@@ -47,25 +47,36 @@ fx-service/
 
 ### Setup & Run
 
-#### 1️⃣ Clone the Repository
+#### Clone the Repository
 
 ```sh
 git clone git@github.com:toptoppy/practice-spring-web-test.git
 cd practice-spring-web-test
 ```
 
-#### 2️⃣ Run the Application
+#### Run the Application
 
 ```sh
 ./gradlew bootRun
 ```
 
-#### 3️⃣ Run Tests
+#### Run Tests
 
 ```sh
 ./gradlew test
 ```
 
+#### Run Lint Check
+
+```sh
+./gradlew ktlintCheck
+```
+
+#### Run Lint Formatting
+
+```sh
+./gradlew ktlintFormat
+```
 ---
 
 ## API Endpoints

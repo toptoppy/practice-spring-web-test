@@ -1,0 +1,21 @@
+[*.{kt,kts}]
+# Indentation rules
+indent_style = space
+indent_size = 4
+continuation_indent_size = 4
+
+# Enforce final newline
+insert_final_newline = true
+
+# Remove trailing whitespaces
+trim_trailing_whitespace = true
+
+# Maximum line length
+max_line_length = 120
+
+# Kotlin-specific rules
+ktlint_standard_no-wildcard-imports = true   # Prevent wildcard imports
+ktlint_standard_filename = true              # Enforce file name matching class
+ktlint_standard_no-multiple-spaces = true    # Disallow extra spaces
+ktlint_standard_no-semi = true               # Disallow unnecessary semicolons
+ktlint_standard_no-blank-line-before-rbrace = true # Prevent blank lines before closing brace
